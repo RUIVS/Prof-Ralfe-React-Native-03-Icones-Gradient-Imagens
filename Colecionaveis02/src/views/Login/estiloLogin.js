@@ -1,51 +1,62 @@
 import { StyleSheet } from 'react-native';
 
 const estiloLogin = StyleSheet.create({
+    logo: {
+        width: 90,
+        height: 90,
+        borderRadius: 50,
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 20,
+    },
+    fundo: {
+        justifyContent: 'center',
+        width: '100%',
+        height: '100%',
+    },
+    campoContainer: {
+        flexDirection: 'row',
+        padding: 10,
+        paddingLeft: 40,
+        margin: 10,
+        alignItems: 'center',
+    },
+   logoContainer: {
+        alignItems: 'center',
+        marginBottom: 30,
+   },
    container: {   
       flex: 1,
       justifyContent: 'center',
       alignItems: 'center',     
-   },
-   borda: {   
-      backgroundColor: '#081a31',  
-      width: '80%',
-      height: 230,
-      borderRadius: 10,
-   },
-   texto: {
-      fontSize: 20,
-      color: '#FFFFFF',
-      fontWeight: 'bold',
-      textAlign: "center",
-      padding: 10
+      backgroundColor: 'transparent',
+      paddingLeft: 20,
    },
    campo: {
-      backgroundColor: '#dcedff',
-      fontSize: 18,
-      marginLeft: 40,
-      marginRight: 40,    
-      marginTop: 5,
-      borderRadius: 5,
-      height: 40,
-      paddingLeft: 10
+      backgroundColor: '#transparent',
+      fontSize: 16,
+      marginLeft: 15,
+      paddingBottom: 10,
+      borderBottomWidth: 1,
+      borderColor: 'white',
     },
-   botaoContainer: {
-      marginTop: 20,
-      marginBottom: 20,
-      marginLeft: 40,
-      marginRight: 40,
-      borderRadius: 5,
-      height: 40,
-      borderWidth: 2,
-      borderColor: '#e8f2e9',
-      backgroundColor: '#14417b',
+   botaoLinearGradient: {
+      flexDirection: 'row',
       justifyContent: 'center',
       alignItems: 'center',
+      margin: 20,
+      marginLeft: 50,
+      marginRight: 50,
+      borderRadius: 8,
+      height: 50,
+      paddingLeft: 15,
+      paddingRight: 15,
    },
-      botaoTexto: {
+    botaoTexto: {
       fontSize: 18,
       color: '#FFFFFF',
-      fontWeight: 'bold'
+      paddingLeft: 15,
+      backgroundColor: 'transparent',
    },
 });
 
